@@ -25,6 +25,17 @@ a {
   color: #89cff0;
 }
 
+.br-main-top {
+  width: 100%;
+  height: 500px;
+}
+
+#br-main-pic {
+  background-image: url(../img/services-slide-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .br-line-top {
   border-top: 1px solid rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
@@ -150,4 +161,17 @@ a {
 
 .br-icon-foot i {
   margin: 0px 5px;
+}
+
+.br-black {
+  color: #000;
+}
+
+.br-img-width {
+  margin: 0px auto;
+}
+
+.card-body img {
+  margin: 0px auto;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
