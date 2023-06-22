@@ -1,9 +1,24 @@
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: #89cff0 !important;
+}
+
 .title {
   width: 50%;
   margin: 40px auto;
 }
 .title h1 {
   text-align: center;
+}
+
+.title-2 {
+  margin: 10px 40px;
+  font-size: 23px;
 }
 
 .br-main {

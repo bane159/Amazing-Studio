@@ -1,11 +1,24 @@
 
 $main-color: #89cff0;
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+.active{
+    color: $main-color!important;
+}
 .title{
     width: 50%;
     margin: 40px auto;
     h1{
         text-align: center;
     }
+}
+.title-2{
+    margin: 10px 40px;
+    font-size: 23px;
+    // text-align: center;
 }
 .br-main{
     color: $main-color;
@@ -63,6 +76,7 @@ $main-color: #89cff0;
 .btn-outline-info{
     border: 3px solid #0dcaf0;
 }
+
 @media (min-width: 768px){
     .br-choose-us{
         font-size: 30px;
