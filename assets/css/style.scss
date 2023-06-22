@@ -32,6 +32,9 @@ a{
     background-size: cover;
     background-position: center;
 }
+.br-main-color{
+    background-color: $main-color;
+}
 .br-line-top{
     border-top: 1px solid rgba(0, 0, 0,0.4);
     border-bottom: 1px solid rgba(0, 0, 0,0.4);
