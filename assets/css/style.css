@@ -17,12 +17,27 @@ a {
 }
 
 .title-2 {
-  margin: 10px 40px;
   font-size: 23px;
+  text-align: center;
 }
 
 .br-main {
   color: #89cff0;
+}
+
+.br-line-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  width: 70%;
+  padding: 10px 0px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.br-line-top p {
+  margin: 0px;
+  font-size: 25px;
 }
 
 .line {
@@ -95,6 +110,9 @@ a {
   .br-choose-us {
     font-size: 30px;
   }
+  .br-line-top {
+    width: 35%;
+  }
 }
 @media (min-width: 992px) {
   .icon {
@@ -102,6 +120,9 @@ a {
   }
   .br-choose-us {
     font-size: 30px;
+  }
+  .br-line-top {
+    width: 25%;
   }
 }
 .card {
