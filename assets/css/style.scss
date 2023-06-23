@@ -186,8 +186,10 @@ a{
 .br-btn-stationary{
     position: fixed;
     z-index: 10000;
+    border: 1px solid $main-color;
+    border-radius: 50%;
     bottom: 1rem;
-    right: 0.5rem;
+    right: 1rem;
     animation-name: wobble;
     animation-iteration-count: infinite;
     animation-duration: 1s;
