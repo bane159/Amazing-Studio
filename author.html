@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="top">
         <div class="row">
             <div class="col-12 mx-auto">
                 <nav class="navbar navbar-expand-md p-3">
@@ -47,7 +47,10 @@
         </div>
     </div>
     <main>
-      <div  class="carousel carousel-dark slide carousel-fade">
+      <div class="br-btn-stationary">
+        <a href="#top" class="btn rounded-circle br-main-color"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+      <div  class="carousel carousel-dark slide carousel-fade" >
 
         <div class="carousel-inner">
           <div class="carousel-item active" >
@@ -115,8 +118,8 @@
       <div class="row justify-content-evenly">
          <div class="col-8 col-md-3 mt-3 br-foot">
            <h5 class="br-main">Contact Info</h5>
-           <p><b>mob:</b> 11234597</p>
-           <p><b>E-mail:</b> Studio&#64;gmail.com</p>
+           <a href="tel:11234597"><b>mob:</b> 11234597</a>
+           <a href="mailto:studio@gmail.com"><b>E-mail:</b> Studio&#64;gmail.com</a>
          </div>
          <div class="col-8 col-md-3 mt-3 br-foot">
            <h5 class="br-main">Home Adress</h5>
@@ -143,6 +146,9 @@
          <a href="assets/css/style.css">
            <i class="fa-brands fa-css3-alt"></i>
          </a>
+         <a href="sitemap.xml">
+          <i class="fa-solid fa-sitemap"></i>
+        </a>
        </div>
       </div>
    </footer>
