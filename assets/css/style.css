@@ -205,7 +205,7 @@ a {
   animation-name: wobble;
   animation-iteration-count: infinite;
   animation-duration: 1s;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-timing-function: ease-out;
 }
 
